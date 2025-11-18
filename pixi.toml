@@ -4,11 +4,15 @@ name = "BA-term-cards"
 platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
+[tasks.compile]
+args = ["output"]
+cmd = "typst compile term-card.typ {{ output }} --font-path fonts --ignore-system-fonts"
+
 [tasks]
-build = """
-    typst compile term-card.typ;
-    typst compile term-card.typ "term-card-{p}.png";
-"""
+build = { depends-on = [
+    { task = "compile", args = ["term-card.pdf"] },
+    { task = "compile", args = ["'term-card-{p}.png'"] },
+] }
 
 [dependencies]
 typst = "=0.13.1"
