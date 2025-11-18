@@ -30,5 +30,5 @@ jobs:
             term-card.pdf
             term-card-1.png
             term-card-2.png
-          body: "Latest term card"
+          body: ${{ github.event.head_commit.message }}
           make_latest: true
