@@ -1,0 +1,35 @@
+name: Compile and Deploy PDF and PNGs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pixi
+        uses: prefix-dev/setup-pixi@v0.9.0
+        with:
+          pixi-version: v0.49.0
+          cache: true
+
+      - name: Build PDF 
+        run: pixi run build
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          files:
+            - term-card.pdf
+            - term-card-1.png
+            - term-card-2.png
+          body: "Latest term card"
+          make_latest: true
