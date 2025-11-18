@@ -325,7 +325,7 @@
 #v(1fr)
 #[
 #set text(12pt)
-#show emph: set text(font: "Baskerville")
+#show emph: set text(font: "Baskervville")
 
 // #set par(leading: 5pt)
 #pad(x: -6mm, table(
