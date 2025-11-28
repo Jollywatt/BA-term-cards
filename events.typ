@@ -189,7 +189,7 @@
   label: [Christmas Cookie Making],
   color: red,
   description: [BA Room from 2pm],
-  dates: Date("2025-12-06"),
+  dates: Date("2025-12-07"),
   shape: circle,
 ),
 (
