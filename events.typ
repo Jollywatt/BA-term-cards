@@ -178,13 +178,13 @@
   dates: Date("2025-11-28"),
   color: yellow,
 ),
-(
-  label: [Christmas Craft Evening],
-  color: purple,
-  description: [BA Room at 7:30pm],
-  dates: Date("2025-12-02"),
-  shape: circle,
-),
+// (
+//   label: [Christmas Craft Evening],
+//   color: purple,
+//   description: [BA Room at 7:30pm],
+//   dates: Date("2025-12-02"),
+//   shape: circle,
+// ),
 (
   label: [Christmas Cookie Making],
   color: red,
