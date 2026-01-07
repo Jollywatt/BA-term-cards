@@ -1,5 +1,9 @@
 #let Date(text) = toml(bytes("date = " + text)).date
 
+#let term-name = [Michaelmas 2025]
+#let start-date = Date("2025-10-06")
+#let end-date = start-date + duration(weeks: 10)
+
 // a bunch of random mnemonic icons to label events
 #let formal-icon = box(rotate(45deg, polygon.regular(vertices: 4, size: .7em, fill: yellow.lighten(20%))))
 #let bop-icon = box(circle(stroke: 3pt + fuchsia.lighten(50%), radius: 0.25em))
@@ -7,7 +11,6 @@
 #let superbar-icon = box(polygon.regular(vertices: 3, size: .7em, stroke: 2pt + blue.lighten(50%)))
 #let other-icon = box(pad(text(1.2em, sym.star), x: -1pt))
 
-#let term-name = [Michaelmas 2025]
 
 #let events = (
 

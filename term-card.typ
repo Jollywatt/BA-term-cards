@@ -1,8 +1,5 @@
 #import "events-2026L.typ": *
 
-#let start-date = Date("2025-10-06")
-#let end-date = start-date + duration(weeks: 10)
-
 #set page(margin: 10mm)
 #set text(font: "EB Garamond")
 
@@ -17,9 +14,9 @@
 // Space for a small blurb about what this term card is and how cool we are
 
 
-#v(1em)
-
 ]
+
+#show "TBD": highlight
 
 
 #let events-at-date(target-date) = {
@@ -36,6 +33,8 @@
       box(circle(radius: .3em, fill: e.color.lighten(50%)))
     } else if s == "tri-right" {
       box(rotate(90deg, polygon.regular(vertices: 3, size: .8em, fill: e.color.lighten(50%))))
+    } else if s == "tri" {
+      box(polygon.regular(vertices: 3, size: .8em, fill: e.color.lighten(50%)))
     } else {
       other-icon
     }
@@ -164,12 +163,12 @@
   column-gutter: 5pt,
   ..monthrow[Recurring],
   ..events-to-rows(events.filter(e => "order" in e)),
-  ..monthrow[October],
-  ..events-in-month(10),
-  ..monthrow[November],
-  ..events-in-month(11),
-  ..monthrow[December],
-  ..events-in-month(12),   
+  ..monthrow[January],
+  ..events-in-month(1),
+  ..monthrow[February],
+  ..events-in-month(2),
+  ..monthrow[March],
+  ..events-in-month(3),   
 )
 
 #v(1fr)
