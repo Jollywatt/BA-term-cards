@@ -7,6 +7,7 @@
 #let superbar-icon = box(polygon.regular(vertices: 3, size: .7em, stroke: 2pt + blue.lighten(50%)))
 #let other-icon = box(pad(text(1.2em, sym.star), x: -1pt))
 
+#let term-name = [Lent 2026]
 
 #let events = (
 
