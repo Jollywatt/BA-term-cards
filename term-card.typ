@@ -1,4 +1,4 @@
-#import "events.typ": *
+#import "events-2026L.typ": *
 
 #let start-date = Date("2025-10-06")
 #let end-date = start-date + duration(weeks: 10)
@@ -8,7 +8,7 @@
 
 #align(center)[
 
-#text(20pt, weight: 600, [Michaelmas 2025])
+#text(20pt, weight: 600, term-name)
 #v(-5pt)
 #text(15pt, weight: 800, [Trinity College #sym.ast BA Society #sym.ast Term Card])
 
