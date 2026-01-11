@@ -7,7 +7,7 @@
 
 #text(20pt, weight: 600, term-name)
 #v(-5pt)
-#text(15pt, weight: 800, [Trinity College #sym.ast BA Society #sym.ast Term Card])
+#text(15pt, weight: 800, [Term Card #sym.ast BA Society #sym.ast Trinity College])
 
 // #v(1em)
 
@@ -163,12 +163,24 @@
   column-gutter: 5pt,
   ..monthrow[Recurring],
   ..events-to-rows(events.filter(e => "order" in e)),
-  ..monthrow[January],
-  ..events-in-month(1),
-  ..monthrow[February],
-  ..events-in-month(2),
-  ..monthrow[March],
-  ..events-in-month(3),   
+  ..(
+    [January],
+    [February],
+    [March],
+    [April],
+    [May],
+    [June],
+    [July],
+    [August],
+    [September],
+    [October],
+    [November],
+    [December],
+  ).enumerate().map(((i, month)) => {
+    let events = events-in-month(i + 1)
+    if events.len() == 0 { return () }
+    (monthrow(month), ..events)
+  }).flatten()
 )
 
 #v(1fr)
