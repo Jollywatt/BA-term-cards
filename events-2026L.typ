@@ -224,7 +224,7 @@
   shape: "tri",
   color: eastern,
   description: [
-    Watch the Winter Olympics Curling match at TBD, 2:35pm
+    Watch the Winter Olympics Curling match at TBD, 1:30pm
 
   ]
 ),
