@@ -136,7 +136,7 @@
 // Idoia
 (
   label: [Language Café],
-  dates: Date("2026-02-08"),
+  dates: Date("2026-02-07"),
   shape: circle,
   color: fuchsia,
   description: [
