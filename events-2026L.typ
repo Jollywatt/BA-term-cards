@@ -241,6 +241,18 @@
     Support your peers at the T100 Cambridge Half Marathon!
   ]
 ),
+(
+  label: [Run & Coffee],
+  dates: Date("2026-02-19"),
+  icon: box({
+    let c = teal.lighten(50%)
+    circle(radius: 4pt, fill: c)
+    place(bottom, dy: -50%, rect(width: 8pt, height: 5pt, fill: c))
+  }),
+  description: [
+    A social 5km run finishing with free café refreshments, departing from Great Gate at 8am
+  ]
+),
 
 // Shih-Huan
 (
