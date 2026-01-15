@@ -78,7 +78,7 @@
 (
   label: [BA Hustings],
   description: [
-    Hustings for the first BA Academic Officer, BA Room, 7pm \
+    Hustings for our first BA Academic Officer, BA Room, 7pm \
     Come hear from the candidates!
   ],
   dates: Date("2026-01-21"),
@@ -86,7 +86,7 @@
 (
   label: [BA Elections],
   description: [
-    Election for BA Academic Officer, watch your emails
+    Election for BA Academic Officer
   ],
   dates: Date("2026-01-23"),
 ),
@@ -98,7 +98,7 @@
   icon: talk-icon,
   color: teal,
   description: [
-    Join us for two talks from BA students about their research, over a free catered lunch! The Old Kitchens, 12pm--2pm
+    Join us for two talks from BA students about their research over a free catered lunch! The Old Kitchens, 12pm--2pm
   ]
 ),
 (
@@ -140,7 +140,7 @@
   shape: circle,
   color: fuchsia,
   description: [
-    Come and speak bilingually at Trin Bar, 3--4pm
+    Come and speak bilingually at Trin Bar, from 3pm
   ]
 ),
 
@@ -160,7 +160,7 @@
   shape: circle,
   color: yellow,
   description: [
-    Celebrating the Lunar New Year, BA Room, 6pm
+    An evening to celebrate the Lunar New Year, BA Room, 6pm
   ]
 ),
 (
@@ -169,7 +169,7 @@
   shape: rect,
   color: olive,
   description: [
-    Cinema trip to _Wuthering Heights_ at TBD from TBD
+    Cinema trip to _Wuthering Heights_, time and place T.B.D.
   ]
 ),
 
@@ -177,11 +177,11 @@
 // Hannes
 (
   label: [Uncomfy Tour],
-  dates: Date("2026-02-22"),
+  dates: Date("2026-01-24"),
   shape: "tri-right",
   color: red,
   description: [
-    The "Uncomfortable" Cambridge Tour, starting in front of King's College, 2:30--4pm (TBD)
+    The "Uncomfortable" Cambridge Tour, starting in front of King's College, 2:30--4pm
   ]
 ),
 
@@ -224,7 +224,7 @@
   shape: "tri",
   color: eastern,
   description: [
-    Watch the Winter Olympics Curling match at TBD, 1:30pm
+    Watch the Winter Olympics Curling match, bar T.B.D., 1:30pm
 
   ]
 ),
@@ -266,7 +266,8 @@
     Date("2026-03-29"),
   ),
   description: [
-    A two-and-a-half day excursion to the famous Peak District with outdoor adventure and a relaxed social atmosphere
+    A 2½ day excursion to the famous Peak District.
+    Leaving Friday afternoon for a relaxed and social outdoor adventure!
   ],
 ),
 
@@ -278,11 +279,21 @@
   dates: Date("2026-03-29"),
   description: [
     Witness the Great Court Clock being set for daylight savings
+    by our own clock tower resident, Hugh Hunt
   ],
 ),
 
+// Isuri
 
-
+(
+  label: [Hamilton],
+  color: orange,
+  shape: "tri",
+  dates: Date("2026-01-29"),
+  description: [
+    London West End musical, Victoria Palace Theatre, 2:30pm
+  ],
+),
 
 
 
