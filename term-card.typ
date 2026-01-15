@@ -118,7 +118,7 @@
 
 
 
-#set page(margin: 18mm)
+#set page(margin: 15mm)
 #set text(13pt)
 
 
@@ -157,7 +157,7 @@
 }
 
 #grid(
-  columns: (1fr, auto, 2fr),
+  columns: (1fr, auto, 2.3fr),
   align: (right, center, left),
   row-gutter: 1.0em,
   column-gutter: 5pt,
