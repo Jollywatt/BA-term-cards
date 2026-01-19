@@ -276,10 +276,9 @@
   label: [Clock Tower Winding],
   color: orange,
   shape: circle,
-  dates: Date("2026-03-29"),
+  dates: Date("2026-01-31"),
   description: [
-    Witness the Great Court Clock being set for daylight savings
-    by our own clock tower resident, Hugh Hunt
+    A tour inside the Trinity Clock from our resident Clockkeeper, Prof.~Hugh~Hunt, entering at 10:45am
   ],
 ),
 
