@@ -197,15 +197,15 @@
 //     Winter swimming at Jesus Green Lido at TBD
 //   ]
 // ),
-// (
-//   label: [Women's Brunch],
-//   dates: Date("2026-03-08"),
-//   shape: rect,
-//   color: red,
-//   description: [
-//     Come and celebrate IWD with brunch at TBD (loc TBD)
-//   ]
-// ),
+(
+  label: [Women's Brunch],
+  dates: Date("2026-03-08"),
+  shape: rect,
+  color: red,
+  description: [
+    International women's day brunch at 10am, BA Room
+  ]
+),
 
 // Hugo
 (
