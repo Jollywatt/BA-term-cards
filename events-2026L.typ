@@ -271,16 +271,29 @@
   ],
 ),
 
-
 (
-  label: [Clock Tower Winding],
+  label: [Trin~Clock~Tour],
+  title: [Trinity Clock Tour],
   color: orange,
   shape: circle,
   dates: Date("2026-01-31"),
   description: [
-    A tour inside the Trinity Clock from our resident Clockkeeper, Prof.~Hugh~Hunt, entering at 10:45am
+    A tour inside the Trinity Clock, entering at 10:45am
   ],
 ),
+
+
+// Mirko
+(
+  label: [Ceilidh Dance],
+  color: blue,
+  shape: rect,
+  dates: Date("2026-01-31"),
+  description: [
+    Traditional Scottish and Irish dance at Newnham College from 8pm
+  ],
+),
+
 
 // Isuri
 
@@ -293,7 +306,6 @@
     London West End musical, Victoria Palace Theatre, 2:30pm
   ],
 ),
-
 
 
 )
