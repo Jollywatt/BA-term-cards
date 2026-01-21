@@ -59,7 +59,7 @@
   ("2026-03-04", [BAr Night]),
   ("2026-03-11", [BAr Night]),
   ("2026-03-18", [BAr Night]),
-  ("2026-03-25", [BAr Night]),
+  // ("2026-03-25", [BAr Night]),
 ).map(((date, label)) => (
   label: label,
   dates: Date(date),
