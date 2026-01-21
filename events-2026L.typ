@@ -177,7 +177,7 @@
 // Hannes
 (
   label: [Uncomfy Tour],
-  dates: Date("2026-01-24"),
+  dates: Date("2026-03-01"),
   shape: "tri-right",
   color: red,
   description: [
