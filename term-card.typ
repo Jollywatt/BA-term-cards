@@ -66,12 +66,6 @@
     table.cell(x: i + 1, align: center, body)
   }),
 
-  // ..range(0, 8).map(week => {
-  //   table.cell(x: 0, y: week + 1, align: horizon, {
-  //     let it = rotate(-90deg, reflow: true)[Week #(week+1)]
-  //     move(it, dx: 3cm)
-  //   })
-  // }),
 
   ..range(n-days).map(i => {
     let date = start-date + duration(days: i)
@@ -84,7 +78,9 @@
 
     table.cell(x: x, y: y, stroke: 0.7pt + oklab(83.01%, 0.001, 0.006), fill: fill)[
 
-      #date.display("[day]")
+      #if date.month() == 2 and date.day() == 14 [♡] else {
+        date.display("[day]")
+      }
       #h(1fr)
       #let week1 = Date("2025-10-09")
       #let weeks-since = (date - week1).weeks()
@@ -118,7 +114,7 @@
 
 
 
-#set page(margin: 15mm)
+#set page(margin: (x: 15mm, y: 0mm))
 #set text(13pt)
 
 
@@ -159,7 +155,7 @@
 #grid(
   columns: (1fr, auto, 2.3fr),
   align: (right, center, left),
-  row-gutter: 1.0em,
+  row-gutter: 1em,
   column-gutter: 5pt,
   ..monthrow[Recurring],
   ..events-to-rows(events.filter(e => "order" in e)),
