@@ -11,7 +11,7 @@
 
 // #v(1em)
 
-// Space for a small blurb about what this term card is and how cool we are
+More details of events are shared via email or WhatsApp close to their happening. Have a great term!
 
 
 ]
