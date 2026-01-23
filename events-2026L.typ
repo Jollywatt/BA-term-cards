@@ -271,10 +271,11 @@
   ],
 ),
 
+// Joseph
 (
   label: [Trin~Clock~Tour],
   title: [Trinity Clock Tour],
-  color: orange,
+  color: yellow.mix(orange),
   shape: circle,
   dates: Date("2026-01-31"),
   description: [
