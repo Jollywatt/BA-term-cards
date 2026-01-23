@@ -1,17 +1,17 @@
 #import "events-2026L.typ": *
 
-#set page(margin: 10mm)
+#set page(margin: (top: 10mm, rest: 6mm))
 #set text(font: "EB Garamond")
 
 #align(center)[
 
-#text(20pt, weight: 600, term-name)
-#v(-5pt)
-#text(15pt, weight: 800, [Term Card #sym.ast BA Society #sym.ast Trinity College])
+#text(24pt, weight: 600, term-name)
+#v(-10pt)
+#text(18pt, weight: 800, [Term Card #sym.ast BA Society #sym.ast Trinity College])
 
-// #v(1em)
+#v(1fr)
 
-More details of events are shared via email or WhatsApp close to their happening. Have a great term!
+#text(12pt)[Further details of events are shared via email or WhatsApp closer to their happening. Have a great term!]
 
 
 ]
@@ -47,14 +47,14 @@ More details of events are shared via email or WhatsApp close to their happening
 
 #show link: underline
 
-#v(1fr)
 #[
 #set text(12pt)
 #show emph: set text(font: "Baskerville")
 
 // #set par(leading: 5pt)
-#pad(x: -6mm, table(
-  columns: (3mm, ..7*(1fr,), 3mm),
+#v(1fr)
+#table(
+  columns: 7*(1fr,),
   rows: (auto, 23mm),
   gutter: 4pt,
   inset: 4pt,
@@ -63,13 +63,13 @@ More details of events are shared via email or WhatsApp close to their happening
   ..range(7).map(i => {
     let date = start-date + duration(days: i)
     let body = strong(date.display("[weekday]"))
-    table.cell(x: i + 1, align: center, body)
+    table.cell(x: i, align: center, body)
   }),
 
 
   ..range(n-days).map(i => {
     let date = start-date + duration(days: i)
-    let x = calc.rem(i, 7) + 1
+    let x = calc.rem(i, 7)
     let y = calc.div-euclid(i, 7) + 1
 
     let events = events-at-date(date)
@@ -109,7 +109,7 @@ More details of events are shared via email or WhatsApp close to their happening
 
     ]
   })
-))
+)
 ]
 
 
