@@ -243,14 +243,17 @@
 ),
 (
   label: [Run & Coffee],
-  dates: Date("2026-02-19"),
+  dates: (
+    Date("2026-02-19"),
+    Date("2026-03-19"),
+  ),
   icon: box({
     let c = teal.lighten(50%)
     circle(radius: 4pt, fill: c)
     place(bottom, dy: -50%, rect(width: 8pt, height: 5pt, fill: c))
   }),
   description: [
-    A social 5km run finishing with free café refreshments, departing from Great Gate at 8am
+    Social morning run finishing with free café refreshments, departing from Great Gate at 8:15am -- each event is a different destination
   ]
 ),
 
