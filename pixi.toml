@@ -6,13 +6,15 @@ version = "0.1.0"
 
 [tasks.compile]
 args = ["output"]
-cmd = "typst compile term-card.typ {{ output }} --font-path fonts --ignore-system-fonts"
+cmd = "typst compile term-card.typ {{ output }} --font-path fonts --ignore-system-fonts --ppi 300"
 
 [tasks]
 build = { depends-on = [
     { task = "compile", args = ["term-card.pdf"] },
     { task = "compile", args = ["'term-card-{p}.png'"] },
 ] }
+compress = "pixi run oxipng --opt max *.png"
 
 [dependencies]
 typst = "=0.13.1"
+oxipng = ">=10.1.0,<11"
