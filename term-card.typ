@@ -11,7 +11,7 @@
 
 #v(1fr)
 
-#text(12pt)[Further details of events are shared via email or WhatsApp closer to their happening. Have a great term!]
+#text(12pt)[Further details of events are shared via email or WhatsApp closer to their happening. Enjoy the final term of the year!]
 
 
 ]
@@ -180,3 +180,4 @@
 )
 
 #v(1fr)
+
