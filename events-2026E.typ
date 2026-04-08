@@ -45,6 +45,18 @@
   order: 1,
 ),
 
+(
+  label: [We~visit~Oxford],
+  dates: Date("2026-05-01"),
+  description: [
+    A day trip swap to our sister college Christ Church in Oxford
+  ]
+),
+(
+  label: [Oxford~visits~us],
+  dates: Date("2026-05-08"),
+),
+
 
 // BAR NIGHTS
 
@@ -74,7 +86,7 @@
 (
   label: [BA AGM],
   description: [
-    The Annual General Meeting for the BA Society
+    The Annual General Meeting for the BA Society, from 7pm
   ],
   dates: Date("2026-05-13"),
 ),(
@@ -134,15 +146,15 @@
 // James
 
 // Idoia
-(
-  label: [Picnic & Sports],
-  dates: Date("2026-04-18"),
-  shape: circle,
-  color: fuchsia,
-  description: [
-    Food and fun at Trinity College Backs, from 3pm
-  ]
-),
+// (
+//   label: [Picnic & Sports],
+//   dates: Date("2026-04-18"),
+//   shape: circle,
+//   color: fuchsia,
+//   description: [
+//     Food and fun at Trinity College Backs, from 3pm
+//   ]
+// ),
 (
   label: [Just Dance],
   dates: Date("2026-06-02"),
@@ -155,7 +167,15 @@
 ),
 
 // Amy
-
+(
+  label: [Cookie Baking],
+  dates: Date("2026-05-11"),
+  shape: rect,
+  color: orange.mix(fuchsia),
+  description: [
+    A morning in the BA Room with cookie baking and brunch, 11am
+  ]
+),
 
 
 // Hannes
@@ -193,5 +213,6 @@
 
 
 // Isuri
+
 
 )
