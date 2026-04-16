@@ -113,7 +113,7 @@
   title: [BA Garden Party],
   shape: "tri",
   color: fuchsia,
-  dates: Date("2026-06-05"),
+  dates: Date("2026-06-06"),
   description: [
     Celebrate the end of the academic year with drinks and snacks, Fellows' Bowling Green from #highlight[mid afternoon]
   ]
