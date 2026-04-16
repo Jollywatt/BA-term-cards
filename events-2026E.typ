@@ -185,6 +185,15 @@
 
 
 // Hugo
+(
+  label: [Fathom],
+  dates: Date("2026-04-29"),
+  shape: rect,
+  color: green,
+  description: [
+    Live performance of _Fathom_, written by our own Playwright in Residence, meet at Cambridge Junction, 7:20pm
+  ]
+),
 
 
 // Shih-Huan
