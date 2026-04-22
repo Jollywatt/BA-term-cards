@@ -93,7 +93,7 @@
   label: [BA Hustings],
   description: [
     Hustings for the BA Committee, BA Room, 7pm \
-    Come hear from the candidates!
+    Come hear from the candidates speak!
   ],
   dates: Date("2026-05-27"),
 ),
@@ -130,7 +130,7 @@
   color: teal,
   description: [
     Hear from our Students and Research Fellows about their research with drinks and dinner!
-    #highlight[Old Kitchens/OCR], 6pm--8pm
+    #highlight[OCR], 6pm--8pm
   ]
 ),
 (
@@ -146,15 +146,15 @@
 // James
 
 // Idoia
-// (
-//   label: [Picnic & Sports],
-//   dates: Date("2026-04-18"),
-//   shape: circle,
-//   color: fuchsia,
-//   description: [
-//     Food and fun at Trinity College Backs, from 3pm
-//   ]
-// ),
+(
+  label: [Picnic~&~Sports],
+  dates: Date("2026-05-30"),
+  shape: circle,
+  color: fuchsia,
+  description: [
+    Food and fun at Trinity College Backs, from 3pm
+  ]
+),
 (
   label: [Just Dance],
   dates: Date("2026-06-02"),
@@ -163,6 +163,16 @@
   title: [Just Dance Night],
   description: [
     BA Room from 8pm
+  ]
+),
+(
+  label: [Kettle's Yard],
+  dates: Date("2026-06-13"),
+  shape: circle,
+  color: yellow.mix(orange),
+  title: [Kettle's Yard Trip],
+  description: [
+    A visit to the famous house and art gallery, 2:30-5pm
   ]
 ),
 
@@ -174,6 +184,16 @@
   color: orange.mix(fuchsia),
   description: [
     A morning in the BA Room with cookie baking and brunch, 11am
+  ]
+),
+
+(
+  label: [Board game night],
+  dates: Date("2026-05-19"),
+  shape: rect,
+  color: olive,
+  description: [
+    A chance to stoke your competitive streak, BA Room, 7pm
   ]
 ),
 
@@ -213,7 +233,7 @@
     place(bottom, dy: -50%, rect(width: 8pt, height: 5pt, fill: c))
   }),
   description: [
-    Social morning run finishing with free café refreshments, departing from Great Gate at 8:15am -- each event is a different destination
+    Social morning run finishing with free café refreshments, departing from Great Gate at 8:00am sharp -- each time a different destination
   ]
 ),
 
