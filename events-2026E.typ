@@ -112,7 +112,7 @@
   label: [Garden Party],
   title: [BA Garden Party],
   shape: "tri",
-  color: fuchsia,
+  color: green,
   dates: Date("2026-06-06"),
   description: [
     Celebrate the end of the academic year with drinks and snacks, Fellows' Bowling Green from #highlight[mid afternoon]
@@ -159,7 +159,7 @@
   label: [Just Dance],
   dates: Date("2026-06-02"),
   shape: circle,
-  color: fuchsia,
+  color: red,
   title: [Just Dance Night],
   description: [
     BA Room from 8pm
