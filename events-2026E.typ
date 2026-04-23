@@ -259,5 +259,19 @@
 
 // Isuri
 
+// Anne the Chaplain
+(
+  label: [Secret Garden],
+  title: [Trinity's Secret Garden],
+  dates: (
+    Date("2026-05-03"),
+    Date("2026-05-04"),
+  ),
+  icon: box(fill: green.lighten(30%), width: .7em, height: .7em, radius: (top-right: 100%, bottom-left: 200%)),
+  description: [
+    Join Chaplain Anne in planting leafy greens, mangetout, baby cucumbers, carrots, tomatoes in Pearce D courtyard
+  ]
+)
+
 
 )
