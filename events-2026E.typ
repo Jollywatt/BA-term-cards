@@ -177,15 +177,15 @@
 ),
 
 // Amy
-(
-  label: [Cookie Baking],
-  dates: Date("2026-05-11"),
-  shape: rect,
-  color: orange.mix(fuchsia),
-  description: [
-    A morning in the BA Room with cookie baking and brunch, 11am
-  ]
-),
+// (
+//   label: [Cookie Baking],
+//   dates: Date("2026-05-11"),
+//   shape: rect,
+//   color: orange.mix(fuchsia),
+//   description: [
+//     A morning in the BA Room with cookie baking and brunch, 11am
+//   ]
+// ),
 
 (
   label: [Board game night],
