@@ -208,10 +208,26 @@
 (
   label: [Fathom],
   dates: Date("2026-04-29"),
-  shape: rect,
-  color: green,
+  icon: box(stack(
+    box(width: 0.6em, height: 0.3em, fill: green.lighten(80%)),
+    box(width: 0.6em, height: 0.3em, fill: olive),
+  )),
   description: [
-    Live performance of _Fathom_, written by our own Playwright in Residence, meet at Cambridge Junction, 7:20pm
+    Staged reading of _Fathom_, written by our own Playwright in Residence, meet at Cambridge Junction, 7:20pm
+  ]
+),
+
+(
+  label: [Like Rabbits],
+  dates: (
+    Date("2026-05-21"),
+    Date("2026-05-22"),
+    Date("2026-05-23"),
+  ),
+  shape: rect,
+  color: red,
+  description: [
+   Live performances of _Like Rabbits_, written by Imogen, directed by James, featuring Hugo and India, ADC Theatre, 7:45pm
   ]
 ),
 
