@@ -23,7 +23,8 @@
   ("2026-05-20", [BA Feast]),
   ("2026-05-29", [BA Formal]),
   ("2026-06-05", [BA Formal]),
-  ("2026-06-12", [BA Formal]),
+  ("2026-06-12", [BA Formal hosting Kings]),
+  ("2026-06-26", [Formal Swap at Kings]),
   ("2026-07-10", [BA Formal]),
   ("2026-07-17", [BA Formal]),
 ).map(((date, label)) => (
@@ -46,7 +47,7 @@
 ),
 
 (
-  label: [We~visit~Oxford],
+  label: [Trinity visits Christ Church],
   dates: Date("2026-05-01"),
   description: [
     A day trip swap to our sister college Christ Church in Oxford
@@ -55,6 +56,9 @@
 (
   label: [Oxford~visits~us],
   dates: Date("2026-05-08"),
+  description: [
+    Christ Church, our Oxford sister college, visits Trinity
+  ]
 ),
 
 
@@ -119,7 +123,7 @@
   ]
 ),
 
-// Seminars
+// Ramya
 (
   label: [Evening Seminar],
   dates: (
@@ -130,7 +134,7 @@
   color: teal,
   description: [
     Hear from our Students and Research Fellows about their research with drinks and dinner!
-    #highlight[OCR], 6pm--8pm
+    6pm--8pm
   ]
 ),
 (
@@ -202,7 +206,12 @@
 
 
 // Keilin
-
+(
+  label: [Women's Brunch],
+  dates: Date("2026-05-17"),
+  shape: circle,
+  color: olive,
+),
 
 // Hugo
 (
@@ -213,7 +222,7 @@
     box(width: 0.6em, height: 0.3em, fill: olive),
   )),
   description: [
-    Staged reading of _Fathom_, written by our own Playwright in Residence, meet at Cambridge Junction, 7:20pm
+    Staged reading of _Fathom_, written by our own Playwright in Residence! Meet at Cambridge Junction, 7:20pm
   ]
 ),
 
@@ -227,7 +236,7 @@
   shape: rect,
   color: red,
   description: [
-   Live performances of _Like Rabbits_, written by Imogen, directed by James, featuring Hugo and India, ADC Theatre, 7:45pm
+   Live performances of _Like Rabbits_ #smallcaps[written by] Imogen #smallcaps[directed by] James #smallcaps[featuring] Hugo & India, ADC Theatre, 7:45pm
   ]
 ),
 
