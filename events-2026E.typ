@@ -57,7 +57,7 @@
   label: [Oxford~visits~us],
   dates: Date("2026-05-08"),
   description: [
-    Christ Church, our Oxford sister college, visits Trinity
+    Guests from Christ Church, our Oxford sister college, visit Trinity
   ]
 ),
 
@@ -119,7 +119,7 @@
   color: green,
   dates: Date("2026-06-06"),
   description: [
-    Celebrate the end of the academic year with drinks and snacks, Fellows' Bowling Green from #highlight[mid afternoon]
+    Celebrate the end of the academic year with drinks and snacks in the Fellows' Bowling Green from mid afternoon
   ]
 ),
 
@@ -133,8 +133,7 @@
   icon: talk-icon,
   color: teal,
   description: [
-    Hear from our Students and Research Fellows about their research with drinks and dinner!
-    6pm--8pm
+    Hear from our Students and Research Fellows about their research over drinks in the Allhusen Room, dinner in Old Kitchens, 6--8pm
   ]
 ),
 (
@@ -143,7 +142,7 @@
   icon: talk-icon,
   color: teal,
   description: [
-    Alumni careers talk in the #highlight[Old Kitchens/OCR], from 6pm
+    Hear invited Trinity Alumni speak about their careers, 6pm
   ]
 ),
 
@@ -166,7 +165,7 @@
   color: red,
   title: [Just Dance Night],
   description: [
-    BA Room from 8pm
+    Low stakes, high energy, BA Room, 8pm
   ]
 ),
 (
@@ -236,7 +235,7 @@
   shape: rect,
   color: red,
   description: [
-   Live performances of _Like Rabbits_ #smallcaps[written by] Imogen #smallcaps[directed by] James #smallcaps[featuring] Hugo & India, ADC Theatre, 7:45pm
+   Live performances of _Like Rabbits_ #smallcaps[written by] Imogen U. #smallcaps[dir. by] James C. #smallcaps[feat.] Hugo A. & India O., ADC Theatre, 7:45pm
   ]
 ),
 
