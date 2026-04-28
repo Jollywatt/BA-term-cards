@@ -125,26 +125,27 @@
 
 // Ramya
 (
-  label: [Evening Seminar],
+  label: [BA Evening Seminar],
   dates: (
-    Date("2026-05-27"),
-    Date("2026-06-17"),
+    Date("2026-05-18"),
+    Date("2026-06-25"),
   ),
   icon: talk-icon,
   color: teal,
   description: [
-    Hear from our Students and Research Fellows about their research over drinks in the Allhusen Room, dinner in Old Kitchens, 6--8pm
+    Hear from our Students and Research Fellows about their research over drinks and canapes in the Allhusen Room, 6--8pm
   ]
 ),
 (
-  label: [Career Talk],
+  label: [What After my Degree?],
   dates: Date("2026-05-12"),
   icon: talk-icon,
   color: teal,
   description: [
-    Hear invited Trinity Alumni speak about their careers, 6pm
+    Hear invited Alumni speak about their careers over drinks from  6pm
   ]
 ),
+
 
 // James
 
