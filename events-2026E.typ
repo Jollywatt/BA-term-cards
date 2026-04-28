@@ -61,6 +61,13 @@
   ]
 ),
 
+(
+  label: [BA AGM],
+  description: [
+    The Annual General Meeting for the BA Society, from 7pm
+  ],
+  dates: Date("2026-05-13"),
+),
 
 // BAR NIGHTS
 
@@ -87,13 +94,8 @@
 ),
 
 // BA SOCIETY
+
 (
-  label: [BA AGM],
-  description: [
-    The Annual General Meeting for the BA Society, from 7pm
-  ],
-  dates: Date("2026-05-13"),
-),(
   label: [BA Hustings],
   description: [
     Hustings for the BA Committee, BA Room, 7pm \
@@ -242,7 +244,24 @@
 
 
 // Shih-Huan
-
+(
+  label: [BA Brunch],
+  dates: Date("2026-05-25"),
+  description: [
+    Enjoy brunch in the BA Room for the Spring Bank Holiday, 10am
+  ],
+  shape: circle,
+  color: blue,
+),
+(
+  label: [Dragon Boat Festival],
+  dates: Date("2026-06-20"),
+  description: [
+    _Wrap & Eat_ -- Make your own Zongzi in the BA Room, 12pm
+  ],
+  shape: circle,
+  color: red,
+),
 
 // Joseph
 (
