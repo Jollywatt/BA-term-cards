@@ -11,8 +11,6 @@
 
 #v(1fr)
 
-#text(12pt)[Further details of events are shared via email or WhatsApp closer to their happening. Enjoy the final term of the year!]
-
 
 ]
 
@@ -144,7 +142,12 @@
   events-to-rows(e)
 }
 
+
 #v(1fr)
+
+#align(center, emph(text(12pt)[Further details are shared via email or WhatsApp closer to their happening. Enjoy the final term of the year!]))
+#v(5mm)
+
 
 #let monthrow(it) = {
   // (grid.cell(colspan: 3, align: left, [#text(weight: 600, (it))~#box(line(length: 100%, stroke: 0.25pt + luma(80%)))]),)
