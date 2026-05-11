@@ -18,7 +18,7 @@
 
 // BA FORMALS, THEMED DINNERS AND SWAPS
 ..(
-  ("2026-05-08", [Sri Lankan Formal]),
+  ("2026-05-08", [BA Formal]),
   ("2026-05-15", [BA Formal]),
   ("2026-05-20", [BA Feast]),
   ("2026-05-29", [BA Formal]),
