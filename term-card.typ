@@ -1,4 +1,4 @@
-#import "events-2026E.typ": *
+#import "events-2026S.typ": *
 
 #set page(margin: (top: 10mm, rest: 6mm))
 #set text(font: "EB Garamond")
