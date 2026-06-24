@@ -5,6 +5,7 @@ Term cards are written in [Typst](https://typst.app) to make them easier to upda
 Previous terms:
 - [Michaelmas 2025](https://github.com/Jollywatt/BA-term-cards/tree/mich-2025)
 - [Lent 2026](https://github.com/Jollywatt/BA-term-cards/tree/lent-2026)
+- [Easter 2026](https://github.com/Jollywatt/BA-term-cards/tree/east-2026)
 
 ## Easter 2026
 
