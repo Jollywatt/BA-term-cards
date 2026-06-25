@@ -2,7 +2,7 @@ name: Compile and Deploy PDF and PNGs
 
 on:
   push:
-    branches: main
+    branches: "*"
     tags: "*"
 
 jobs:
