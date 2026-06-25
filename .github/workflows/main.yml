@@ -2,8 +2,7 @@ name: Compile and Deploy PDF and PNGs
 
 on:
   push:
-    branches:
-      - main
+    branches: "*"
 
 jobs:
   build:
@@ -28,7 +27,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: latest
+          tag_name: ${{ github.ref_name }}
           files: |
             term-card.pdf
             term-card-1.png
