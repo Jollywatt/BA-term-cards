@@ -17,6 +17,10 @@
   description: [University Sports Centre, 12--5pm \ #link("sport.cam.ac.uk/sportsfair")],
 ),
 (
+  label: [Matriculation],
+  dates: Date("2025-10-11"),
+),
+(
   label: [Freshers' Fair],
   description: [
     Parker’s Piece, 10am--4pm\
@@ -41,7 +45,7 @@
   ("2025-11-28", [BA Formal]),
   ("2025-12-04", [Christmas\ BA Formal]),
   ("2025-12-10", [BA Feast]),
-  ("2025-12-13", [Formal Swap with Emmanuel]),
+  ("2025-12-13", [Formal Swap with Emmanuel (To~be~confirmed)]),
 ).map(((date, label)) => (
   label: label,
   dates: Date(date),
@@ -76,9 +80,9 @@
 ),
 
 (
-  label: [BA Hustings],
+  label: [BA Hustings & Open Meeting],
   description: [
-    BA Committee candidate speeches in BA Room, 7pm\
+    Candidate speeches and open meeting in BA Room\
     Manifestos due the day before
   ],
   dates: Date("2025-10-27"),
@@ -96,7 +100,7 @@
   title: [Lunchtime Seminars],
   dates: (
     "2025-10-29",
-    // "2025-11-12",
+    "2025-11-12",
   ).map(Date),
   color: teal,
   shape: circle,
@@ -163,43 +167,43 @@
   label: [Fen Drayton],
   title: [Fen Drayton Walk],
   description: [Walk at Fen Drayton Lakes 10am--3pm\ Meet at the Great Gate],
-  dates: Date("2025-11-22"),
+  dates: Date("2025-11-29"),
   color: green,
 ),
 (
   label: [Trip to Ely],
   description: [Train trip to our neighbouring cathedral city],
-  dates: Date("2025-10-24"),
+  dates: Date("2025-10-25"),
   color: green,
 ),
-(
-  label: [Karaoke night],
-  description: [In the College Bar, after the Friday BA formal],
-  dates: Date("2025-11-28"),
-  color: yellow,
-),
 // (
-//   label: [Christmas Craft Evening],
-//   color: purple,
-//   description: [BA Room at 7:30pm],
-//   dates: Date("2025-12-02"),
-//   shape: circle,
+//   label: [Karaoke night],
+//   description: [In the College Bar, after the Friday BA formal],
+//   dates: Date("2025-11-28"),
+//   color: yellow,
 // ),
+(
+  label: [Christmas Craft Evening],
+  color: purple,
+  description: [BA Room at 7:30pm],
+  dates: Date("2025-12-02"),
+  shape: circle,
+),
 (
   label: [Christmas Cookie Making],
   color: red,
   description: [BA Room from 2pm],
-  dates: Date("2025-12-07"),
+  dates: Date("2025-12-06"),
   shape: circle,
 ),
-(
-  label: [Dot Cotton],
-  title: [Dot Cotton Club Night],
-  description: [LGBT club night at Union Cellars],
-  dates: Date("2025-12-06"),
-  shape: rect,
-  color: purple,
-),
+// (
+//   label: [Dot Cotton],
+//   title: [Dot Cotton Club Night],
+//   description: [LGBT club night at Union Cellars],
+//   dates: Date("2025-12-06"),
+//   shape: rect,
+//   color: purple,
+// ),
 (
   label: [Run Club],
   dates: Date("2025-11-05"),
@@ -209,33 +213,33 @@
 
 
 // ADC theatre shows
-(
-  title: [ADC Theatre Shows],
-  label: [ADC: Dial M for Murder],
-  dates: Date("2025-10-14"),
-  shape: "tri-right",
-  color: fuchsia,
-  description: [Plays at the local ADC theatre on Park Street, from 7:45pm],
-),
-(
-  label: [ADC: Adams Family Musical],
-  dates: Date("2025-10-28"),
-  shape: "tri-right",
-  color: fuchsia
-),
-(
-  label: [ADC: Streetcar Named Desire],
-  dates: Date("2025-11-11"),
-  shape: "tri-right",
-  color: fuchsia
-),
-(
-  label: [The Cabinet of Dr Caligari],
-  description: [Classic film trip at Light Cinema from 3:30pm],
-  dates: Date("2025-11-02"),
-  shape: "tri-right",
-  color: fuchsia.mix(yellow)
-),
+// (
+//   title: [ADC Theatre Shows],
+//   label: [ADC: Dial M for Murder],
+//   dates: Date("2025-10-14"),
+//   shape: "tri-right",
+//   color: fuchsia,
+//   description: [Plays at the local ADC theatre on Park Street, from 7:45pm],
+// ),
+// (
+//   label: [ADC: Adams Family Musical],
+//   dates: Date("2025-10-28"),
+//   shape: "tri-right",
+//   color: fuchsia
+// ),
+// (
+//   label: [ADC: Streetcar Named Desire],
+//   dates: Date("2025-11-11"),
+//   shape: "tri-right",
+//   color: fuchsia
+// ),
+// (
+//   label: [The Cabinet of Dr Caligari],
+//   description: [Classic film trip at Light Cinema from 3:30pm],
+//   dates: Date("2025-11-02"),
+//   shape: "tri-right",
+//   color: fuchsia.mix(yellow)
+// ),
 
 
 
