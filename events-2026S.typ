@@ -36,13 +36,15 @@
 // BAR NIGHTS
 
 ..(
-  ("2026-04-29", [BAr Night]),
-  ("2026-05-06", [BAr Night]),
-  ("2026-05-13", [Karaoke BAr Night]),
-  ("2026-06-03", [BAr Night]),
-  ("2026-06-10", [BAr Night]),
-  ("2026-06-17", [BAr Night]),
-  ("2026-06-24", [BAr Night]),
+  ("2026-07-15", [BAr Night]),
+  ("2026-07-29", [BAr Night]),
+  ("2026-08-05", [BAr Night]),
+  ("2026-08-12", [BAr Night]),
+  ("2026-08-19", [BAr Night]),
+  ("2026-08-26", [BAr Night]),
+  ("2026-09-02", [BAr Night]),
+  ("2026-09-09", [BAr Night]),
+  ("2026-09-16", [BAr Night]),
 ).map(((date, label)) => (
   label: label,
   dates: Date(date),
@@ -57,7 +59,74 @@
   order: 2,
 ),
 
-// BA SOCIETY
+
+(
+  dates: Date("2026-08-01"),
+  label: [PostDoc Picnic],
+  description: [
+    Picnic and networking with the PostDoc Society, Fellow's Garden from 3pm
+  ],
+  color: blue,
+  shape: "tri"
+),
+
+(
+  dates: Date("2026-07-19"),
+  label: [World Cup Final],
+  description: [Watch party for the FIFA world cup in TBD, from 8pm],
+  shape: circle,
+  color: red,
+),
+
+(
+  dates: Date("2026-07-29"),
+  label: [Cores do Samba],
+  description: [
+    Part of _Sounds Green_ in the Botanic Gardens, samba, bossa nova and funk, on the Garden's Main Lawn, from 6pm
+  ],
+  shape: circle,
+  color: green,
+),
+
+(
+  dates: Date("2026-08-15"),
+  label: [Rally Karting],
+  description: [
+    Outdoor go karting, Kings Ripton Road, Huntingdon from 1pm
+  ],
+  color: orange,
+
+),
+
+// run & coffee
+(
+  label: [Run & Coffee],
+  dates: (
+    "2026-07-24",
+    "2026-08-09",
+    "2026-08-27",
+    "2026-09-11",
+    "2026-09-30",
+  ).map(Date),
+  icon: box({
+    let c = teal.lighten(50%)
+    circle(radius: 4pt, fill: c)
+    place(bottom, dy: -50%, rect(width: 8pt, height: 5pt, fill: c))
+  }),
+  description: [
+    Social morning run finishing with free café refreshments, departing from Great Gate at 8:00am -- each event is a different destination
+  ]
+),
+
+(
+  label: [Coffee & Cake],
+  dates: Date("2026-09-06"),
+  description: [
+    Refreshments of the bitter & sweet kind in the BA Room, 2pm
+  ],
+  shape: "tri",
+  color: fuchsia
+)
 
 
 )
