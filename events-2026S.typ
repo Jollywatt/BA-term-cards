@@ -73,7 +73,7 @@
 (
   dates: Date("2026-07-19"),
   label: [World Cup Final],
-  description: [Watch party for the FIFA world cup in TBD, from 8pm],
+  description: [Watch party for the FIFA world cup, location TBD, from 8pm],
   shape: circle,
   color: red,
 ),

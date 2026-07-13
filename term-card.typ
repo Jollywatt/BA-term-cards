@@ -14,7 +14,7 @@
 
 ]
 
-#show "TBD": highlight
+// #show "TBD": highlight
 
 
 #let events-at-date(target-date) = {
