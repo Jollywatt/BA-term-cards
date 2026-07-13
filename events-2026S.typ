@@ -66,8 +66,8 @@
   description: [
     Picnic and networking with the PostDoc Society, Fellow's Garden from 3pm
   ],
-  color: blue,
-  shape: "tri"
+  color: red,
+  shape: rect
 ),
 
 (
@@ -80,7 +80,7 @@
 
 (
   dates: Date("2026-07-29"),
-  label: [Cores do Samba],
+  label: [Cores~do~Samba],
   description: [
     Part of _Sounds Green_ in the Botanic Gardens, samba, bossa nova and funk, on the Garden's Main Lawn, from 6pm
   ],
@@ -96,6 +96,14 @@
   ],
   color: orange,
 
+),
+
+(
+  dates: Date("2026-08-08"),
+  label: [Sea Day Trip],
+  description: [Day trip to the ocean, location to be announced, morning start],
+  color: blue.lighten(90%).saturate(100%),
+  shape: "tri",
 ),
 
 // run & coffee
