@@ -19,7 +19,7 @@
 // BA FORMALS, THEMED DINNERS AND SWAPS
 ..(
   ("2026-07-17", [BA Formal]),
-  ("2026-07-22", [BA Formal]),
+  ("2026-07-24", [BA Formal]),
   ("2026-07-31", [BA Formal]),
   ("2026-08-07", [BA Formal]),
 ).map(((date, label)) => (
