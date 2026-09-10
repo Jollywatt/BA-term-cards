@@ -1,4 +1,5 @@
 #import "events-2026M.typ": *
+#import "@preview/tiaoma:0.3.0"
 
 #set page(margin: (top: 10mm, rest: 6mm))
 #set text(font: "EB Garamond")
@@ -188,4 +189,18 @@
 )
 
 #v(1fr)
+
+#let s = 10mm
+#place(bottom + right, dx: 15mm - s, dy: -s)[
+  #show: emph
+  #grid(
+    columns: 2,
+    align: horizon + right,
+    gutter: 1em
+  )[
+    Any changes to event details\ will be reflected in the digital term card\ available at _basociety.net/ba-events_
+  ][
+    #tiaoma.qrcode("https://basociety.net/ba-events/", width: 16mm)
+  ]
+]
 
