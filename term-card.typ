@@ -1,4 +1,4 @@
-#import "events-2026S.typ": *
+#import "events-2026M.typ": *
 
 #set page(margin: (top: 10mm, rest: 6mm))
 #set text(font: "EB Garamond")
@@ -137,7 +137,7 @@
 
 #let events-in-month(m) = {
   let e = events.filter(e => {
-    "dates" in e and calc.min(..(e.dates,).flatten()).month() == m
+    "dates" in e and (e.dates,).flatten().len() > 0 and calc.min(..(e.dates,).flatten()).month() == m
   })
   events-to-rows(e)
 }
@@ -145,8 +145,13 @@
 
 #v(1fr)
 
-#align(center, emph(text(12pt)[Further details are shared via email or WhatsApp closer to their happening. Enjoy the final term of the year!]))
+#align(center, emph(text(12pt)[
+  Further details are shared via email or WhatsApp closer to their happening.
+  Enjoy the first term of the year!
+]))
 #v(5mm)
+
+
 
 
 #let monthrow(it) = {
