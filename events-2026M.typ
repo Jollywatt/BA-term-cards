@@ -18,10 +18,17 @@
 
 // BA FORMALS, THEMED DINNERS AND SWAPS
 ..(
-  ("2026-07-17", [BA Formal]),
-  ("2026-07-24", [BA Formal]),
-  ("2026-07-31", [BA Formal]),
-  ("2026-08-07", [BA Formal]),
+  ("2026-10-08", [BA Freshers' Formal]),
+  ("2026-10-16", [Formal Swap at Pembroke ]),
+  ("2026-10-23", [BA Formal]),
+  ("2026-10-30", [Halloween Formal with Pembroke]),
+  ("2026-11-06", [BA Formal]),
+  ("2026-11-13", [BA Formal]),
+  ("2026-11-14", [Formal Swap at Jesus]),
+  ("2026-11-20", [BA Formal with Jesus]),
+  ("2026-11-27", [BA Formal]),
+  ("2026-12-02", [BA Christmas Formal]),
+  ("2026-12-09", [BA Feast]),
 ).map(((date, label)) => (
   label: label,
   dates: Date(date),
@@ -31,21 +38,42 @@
   color: yellow,
 )),
 
+(
+  title: [BA Formal Dinners],
+  description: [
+    Usually pre-drinks from 7pm, dinner at 8pm in Great Hall\
+    Catering Officer will notify via email
+  ],
+  icon: formal-icon,
+  order: 1,
+),
+
+// Freshers stuff
+
+(
+  label: [Freshers' Bop],
+  title: [Freshers' Bop],
+  description: [Welcome party at TBD],
+  color: fuchsia,
+  icon: bop-icon,
+  dates: Date("2026-10-10"),
+),
+
 
 
 // BAR NIGHTS
 
 ..(
-  ("2026-10-08", [BAr Night]),
-  ("2026-10-15", [BAr Night]),
-  ("2026-10-22", [BAr Night]),
-  ("2026-10-29", [BAr Night]),
-  ("2026-11-05", [BAr Night]),
-  ("2026-11-12", [BAr Night]),
-  ("2026-11-19", [BAr Night]),
-  ("2026-11-26", [BAr Night]),
-  ("2026-12-03", [BAr Night]),
-  ("2026-12-10", [BAr Night]),
+  ("2026-10-07", [BAr Night]),
+  ("2026-10-14", [BAr Night]),
+  ("2026-10-21", [BAr Night]),
+  ("2026-10-28", [BAr Night]),
+  ("2026-11-04", [BAr Night]),
+  ("2026-11-11", [Karaoke BAr Night]),
+  ("2026-11-18", [BAr Night]),
+  ("2026-11-25", [BAr Night]),
+  ("2026-12-02", [BAr Night]),
+  ("2026-12-11", [BAr Night]),
 ).map(((date, label)) => (
   label: label,
   dates: Date(date),
@@ -76,16 +104,5 @@
     Social morning run finishing with free café refreshments, departing from Great Gate at 8:00am -- each event is a different destination
   ]
 ),
-
-(
-  label: [Coffee & Cake],
-  dates: Date("2026-09-06"),
-  description: [
-    Refreshments of the bitter & sweet kind in the BA Room, 2pm
-  ],
-  shape: "tri",
-  color: fuchsia
-)
-
 
 )
