@@ -11,6 +11,7 @@
 #let superbar-icon = box(polygon.regular(vertices: 3, size: .7em, stroke: 2pt + blue.lighten(50%)))
 #let other-icon = box(move(text(1.2em, sym.star), dy: -0.1em))
 #let talk-icon = box(rotate(45deg, polygon.regular(vertices: 4, size: .8em, fill: orange.lighten(50%))))
+#let foody-icon(c) = box(rotate(45deg, polygon.regular(vertices: 4, size: .7em, fill: c.lighten(50%))))
 
 
 #let events = (
@@ -94,6 +95,10 @@
 (
   label: [Run & Coffee],
   dates: (
+    "2026-10-16",
+    "2026-11-05",
+    "2026-11-18",
+    "2026-12-11",
   ).map(Date),
   icon: box({
     let c = teal.lighten(50%)
@@ -104,5 +109,27 @@
     Social morning run finishing with free café refreshments, departing from Great Gate at 8:00am -- each event is a different destination
   ]
 ),
+
+
+(
+  label: [Cookies & Mulled Wine],
+  dates: Date("2026-11-28"),
+  icon: foody-icon(red),
+  description: [
+    Stave off winter by baking cookies and drinking mulled wine together in the BA room, from afternoon
+  ],
+  contact: "Leon"
+),
+
+(
+  label: [Halloween Drag],
+  description: [
+    Group outing to Cambridge's _#smallcaps[now]! That's what I call... #smallcaps[drag]!_ \
+    The Blue Moon pub, meeting at Great Gate, from 6pm
+  ],
+  color: fuchsia.mix(blue),
+  shape: circle,
+  dates: Date("2026-10-24"),
+)
 
 )
