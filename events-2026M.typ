@@ -119,7 +119,18 @@
   icon: box(clip: true, width: 0.7em,align(center, circle(radius: 0.4em, fill: orange.mix(purple).desaturate(50%)))),
   description: [
     Hear from our Students and Research Fellows about their research with drinks and dinner!
-    Allhusen Room, 6pm--8pm
+    Old Kitchens Room, 6pm--9:30pm
+  ]
+),
+
+(
+  label: [What After my Degree?],
+  dates: Date("2026-11-17"),
+  icon: talk-icon,
+  color: teal,
+  description: [
+    Hear invited Alumni speak about life after graduation over drinks \
+    in the Junion Parlor, 5:30--7pm
   ]
 ),
 
