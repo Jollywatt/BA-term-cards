@@ -130,6 +130,26 @@
   color: fuchsia.mix(blue),
   shape: circle,
   dates: Date("2026-10-24"),
-)
+),
+
+(
+  label: [Walk to Granchester],
+  dates: Date("2026-10-18"),
+  shape: circle,
+  color: green,
+  description: [
+    A walk through the countyside to The Orchard Tea Garden in Granchester, leaving from Great Gate at TBD
+  ]
+),
+
+(
+  label: [Board Games],
+  dates: Date("2026-10-31"),
+  shape: circle,
+  color: red,
+  description: [
+     A spooky board game nightwith candied cookies and ice cream in the BA Room, from 7pm
+  ]
+),
 
 )
