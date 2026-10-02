@@ -12,7 +12,7 @@
 
 #v(1fr)
 
-_"We have eternal parties here"_ --- Lord Byron at Trinity, 1807
+"We have eternal parties here" --- Lord Byron at Trinity, 1807
 
 ]
 
@@ -158,7 +158,7 @@ _"We have eternal parties here"_ --- Lord Byron at Trinity, 1807
 
 #let monthrow(it) = {
   // (grid.cell(colspan: 3, align: left, [#text(weight: 600, (it))~#box(line(length: 100%, stroke: 0.25pt + luma(80%)))]),)
-  return (grid.cell(align: center, text(weight: 600, it), colspan: 3, inset: .5em),)
+  return (grid.cell(align: center, text(weight: 600, it), colspan: 3, inset: .2em),)
   // return (none, none, text(weight: 600, , it))
 }
 
@@ -190,6 +190,7 @@ _"We have eternal parties here"_ --- Lord Byron at Trinity, 1807
 )
 
 #v(1fr)
+#v(14mm)
 
 #let s = 10mm
 #place(bottom + right, dx: 15mm - s, dy: -s)[
@@ -199,7 +200,7 @@ _"We have eternal parties here"_ --- Lord Byron at Trinity, 1807
     align: horizon + right,
     gutter: 1em
   )[
-    Any changes to event details\ will be reflected in the digital term card\ available at _basociety.net/ba-events_
+    Any changes to events\ will be reflected in the digital term card\ available at _basociety.net/ba-events_
   ][
     #tiaoma.qrcode("https://basociety.net/ba-events/", width: 16mm)
   ]
