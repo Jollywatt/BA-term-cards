@@ -54,10 +54,27 @@
 (
   label: [Freshers' Bop],
   title: [Freshers' Bop],
-  description: [Welcome party at TBD],
+  description: [Welcome party at Jesus College after the Freshers' Formal],
   color: fuchsia,
   icon: bop-icon,
-  dates: Date("2026-10-10"),
+  dates: Date("2026-10-08"),
+),
+
+
+// Society stuff
+
+(
+  label: [BA Hustings],
+  description: [
+    BA Committee candidate speeches in BA Room, 7pm\
+    Manifestos due the day before
+  ],
+  dates: Date("2026-11-04"),
+),
+(
+  label: [BA Elections],
+  description: [BA Committee elections and referendum],
+  dates: Date("2026-11-06"),
 ),
 
 
@@ -90,6 +107,22 @@
 ),
 
 
+// Evening seminars
+(
+  label: box(scale(x: 94%, origin: left, [Evening Seminar])),
+  title: [Evening Seminars],
+  dates: (
+    "2026-10-28",
+    "2026-11-18",
+    // "2025-11-12",
+  ).map(Date),
+  icon: box(clip: true, width: 0.7em,align(center, circle(radius: 0.4em, fill: orange.mix(purple).desaturate(50%)))),
+  description: [
+    Hear from our Students and Research Fellows about their research with drinks and dinner!
+    Allhusen Room, 6pm--8pm
+  ]
+),
+
 
 // run & coffee
 (
@@ -110,6 +143,18 @@
   ]
 ),
 
+// misc
+
+(
+  label: [Ice Skating],
+  dates: Date("2026-11-23"),
+  description: [
+    Christmas ice skating at Parkers Piece, meeting at Great Gate at 5:30pm
+  ],
+  color: teal,
+  contact: "Petra and Ilinca"
+),
+
 
 (
   label: [Cookies & Mulled Wine],
@@ -119,6 +164,16 @@
     Stave off winter by baking cookies and drinking mulled wine together in the BA room, from afternoon
   ],
   contact: "Leon"
+),
+
+(
+  label: [Women's Brunch],
+  dates: Date("2026-12-13"),
+  shape: circle,
+  description: [
+    A friendly brunch in the BA Room to mark the end of term
+  ],
+  color: olive,
 ),
 
 (
@@ -148,8 +203,35 @@
   shape: circle,
   color: red,
   description: [
-     A spooky board game nightwith candied cookies and ice cream in the BA Room, from 7pm
+    A spooky board game nightwith candied cookies and ice cream in the BA Room, from 7pm
   ]
 ),
+
+(
+  label: [Pumpkin Carving],
+  dates: Date("2026-10-27"),
+  icon: box({
+    (scale(x: 113%, y: 97%, circle(radius: 0.3em, fill: orange.lighten(30%))))
+    for s in (-1, +1) {
+      place(horizon + center, dx: s*0.12em, dy: -0.08em, circle(radius: 0.03em, fill: white))
+    }
+      place(horizon + center, dy: 0.09em, circle(radius: 0.06em, fill: white))
+
+  }),
+  color: orange,
+  description: [
+    An evening of carved pumpkins and fall-themed refreshments in the BA Room, from 7pm
+  ]
+),
+
+(
+  label: [Sunset Walk],
+  icon: box(circle(fill: gradient.linear(yellow.lighten(70%), yellow.mix((orange, 40%)), dir: ttb), radius: 0.34em)),
+  dates: Date("2026-10-25"),
+  description: [
+    A cosy walk through Cambridge parks with coffee and hot chocolate
+    leaving Great Gate at 4pm
+  ]
+)
 
 )
