@@ -190,7 +190,7 @@
 )
 
 #v(1fr)
-#v(14mm)
+#v(18mm)
 
 #let s = 10mm
 #place(bottom + right, dx: 15mm - s, dy: -s)[

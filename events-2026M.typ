@@ -118,8 +118,7 @@
   ).map(Date),
   icon: box(clip: true, width: 0.7em,align(center, circle(radius: 0.4em, fill: orange.mix(purple).desaturate(50%)))),
   description: [
-    Hear from our Students and Research Fellows about their research with drinks and dinner!
-    Old Kitchens Room, 6pm--9:30pm
+    Talks from BAs and JRFs about their research in the Old Kitchens, pre-drinks at 6pm, followed by dinner until 9pm
   ]
 ),
 
@@ -160,7 +159,7 @@
   label: [Ice Skating],
   dates: Date("2026-11-23"),
   description: [
-    Christmas ice skating at Parkers Piece, meeting at Great Gate at 5:30pm
+    Outdoor ice skating at Parkers Piece, meeting at Great Gate at 5:30pm
   ],
   color: teal,
   contact: "Petra and Ilinca"
@@ -172,7 +171,7 @@
   dates: Date("2026-11-28"),
   icon: foody-icon(red),
   description: [
-    Stave off winter by baking cookies and drinking mulled wine together in the BA room, from afternoon
+    Stave off winter by baking cookies and drinking mulled wine together in the BA room, from 4pm
   ],
   contact: "Leon"
 ),
@@ -199,12 +198,22 @@
 ),
 
 (
-  label: [Walk to Granchester],
+  label: [Trip to Granchester],
   dates: Date("2026-10-18"),
   shape: circle,
   color: green,
   description: [
-    A walk through the countyside to The Orchard Tea Garden in Granchester, leaving from Great Gate at TBD
+    A walk or run through the countyside to The Orchard Tea Garden in Granchester, leaving from Great Gate at 10am
+  ]
+),
+
+(
+  label: [Ely Cathedral Christmas Fair],
+  title: [Ely~Cathedral~Christmas~Fair],
+  dates: Date("2026-11-21"),
+  icon: box(move(dy: -0.1em, polygon.regular(vertices: 5, size: .6em, stroke: 3pt + green.desaturate(80%).darken(30%)))),
+  description: [
+    Trip to Ely for the Christmas Gif & Food Fair under its iconic cathedral, 9:30am--1pm
   ]
 ),
 
