@@ -51,14 +51,14 @@
 
 // Freshers stuff
 
-(
-  label: [Freshers' Bop],
-  title: [Freshers' Bop],
-  description: [Welcome party at Jesus College after the Freshers' Formal],
-  color: fuchsia,
-  icon: bop-icon,
-  dates: Date("2026-10-08"),
-),
+// (
+//   label: [Freshers' Bop],
+//   title: [Freshers' Bop],
+//   description: [Welcome party at Jesus College after the Freshers' Formal],
+//   color: fuchsia,
+//   icon: bop-icon,
+//   dates: Date("2026-10-08"),
+// ),
 
 
 // Society stuff
@@ -138,7 +138,7 @@
 (
   label: [Run & Coffee],
   dates: (
-    "2026-10-16",
+    "2026-10-23",
     "2026-11-05",
     "2026-11-18",
     "2026-12-11",
