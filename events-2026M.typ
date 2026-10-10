@@ -177,7 +177,7 @@
 ),
 
 (
-  label: [Women's Brunch],
+  label: [Women's+ Brunch],
   dates: Date("2026-12-13"),
   shape: circle,
   description: [
