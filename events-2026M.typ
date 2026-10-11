@@ -260,6 +260,15 @@
   description: [
     Afternoon clothing swap in the BA Room
   ]
+),
+
+(
+  label: [Black History],
+  dates: Date("2026-10-25"),
+  icon: box(circle(fill: black, radius: 0.34em)),
+  description: [
+    Food, drinks & Afrobeats in Trin Bar for Black history month, 7pm
+  ]
 )
 
 )
