@@ -138,7 +138,7 @@
 (
   label: [Run & Coffee],
   dates: (
-    "2026-10-23",
+    "2026-10-16",
     "2026-11-05",
     "2026-11-18",
     "2026-12-11",
@@ -251,6 +251,14 @@
   description: [
     A cosy walk through Cambridge parks with coffee and hot chocolate
     leaving Great Gate at 4pm
+  ]
+),
+
+(
+  label: [Clothes Swap],
+  dates: Date("2026-11-29"),
+  description: [
+    Afternoon clothing swap in the BA Room
   ]
 )
 
