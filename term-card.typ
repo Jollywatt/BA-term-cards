@@ -165,7 +165,7 @@
 #grid(
   columns: (1fr, auto, 2.6fr),
   align: (right, center, left),
-  row-gutter: 1em,
+  row-gutter: 0.9em,
   column-gutter: 5pt,
   ..monthrow[Recurring],
   ..events-to-rows(events.filter(e => "order" in e)),
