@@ -6,6 +6,7 @@ Previous terms:
 - [Michaelmas 2025 (printed version)](https://github.com/Jollywatt/BA-term-cards/releases/tag/mich-2025-printed)
 - [Lent 2026 (printed version)](https://github.com/Jollywatt/BA-term-cards/releases/tag/lent-2026-printed)
 - [Easter 2026 (printed version)](https://github.com/Jollywatt/BA-term-cards/releases/tag/east-2026-printed)
+- [Michaelmas 2026 (printed version)](https://github.com/Jollywatt/BA-term-cards/releases/tag/mich-2026-printed)
 
 
 ## Current draft
