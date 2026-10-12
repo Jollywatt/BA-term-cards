@@ -197,15 +197,15 @@
   dates: Date("2026-10-24"),
 ),
 
-// (
-//   label: [Trip to Granchester],
-//   dates: Date("2026-10-18"),
-//   shape: circle,
-//   color: green,
-//   description: [
-//     A walk or run through the countyside to The Orchard Tea Garden in Granchester, leaving from Great Gate at 10am
-//   ]
-// ),
+(
+  label: [Trip to Granchester],
+  dates: Date("2026-10-18"),
+  shape: circle,
+  color: green,
+  description: [
+    A morning run (or walk) through the countryside to The Orchard Tea Garden in Granchester
+  ]
+),
 
 (
   label: [Ely Cathedral Christmas Fair],

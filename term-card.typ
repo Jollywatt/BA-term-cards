@@ -163,7 +163,7 @@
 }
 
 #grid(
-  columns: (1fr, auto, 2.5fr),
+  columns: (1fr, auto, 2.6fr),
   align: (right, center, left),
   row-gutter: 1em,
   column-gutter: 5pt,
