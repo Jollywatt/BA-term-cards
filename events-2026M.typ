@@ -186,16 +186,16 @@
   color: olive,
 ),
 
-(
-  label: [Halloween Drag],
-  description: [
-    Group outing to Cambridge's _#smallcaps[now]! That's what I call... #smallcaps[drag]!_ \
-    The Blue Moon pub, meeting at Great Gate, from 6pm
-  ],
-  color: fuchsia.mix(blue),
-  shape: circle,
-  dates: Date("2026-10-24"),
-),
+// (
+//   label: [Halloween Drag],
+//   description: [
+//     Group outing to Cambridge's _#smallcaps[now]! That's what I call... #smallcaps[drag]!_ \
+//     The Blue Moon pub, meeting at Great Gate, from 6pm
+//   ],
+//   color: fuchsia.mix(blue),
+//   shape: circle,
+//   dates: Date("2026-10-24"),
+// ),
 
 (
   label: [Trip to Granchester],
