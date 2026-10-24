@@ -217,18 +217,18 @@
   ]
 ),
 
-(
-  label: [Board Games],
-  dates: Date("2026-10-31"),
-  shape: circle,
-  color: red,
-  description: [
-    A spooky board game nightwith candied cookies and ice cream in the BA Room, from 7pm
-  ]
-),
+// (
+//   label: [Board Games],
+//   dates: Date("2026-10-31"),
+//   shape: circle,
+//   color: red,
+//   description: [
+//     A spooky board game nightwith candied cookies and ice cream in the BA Room, from 7pm
+//   ]
+// ),
 
 (
-  label: [Pumpkin Carving],
+  label: [Pumpkin Carving & Board Games],
   dates: Date("2026-10-27"),
   icon: box({
     (scale(x: 113%, y: 97%, circle(radius: 0.3em, fill: orange.lighten(30%))))
@@ -240,7 +240,7 @@
   }),
   color: orange,
   description: [
-    An evening of carved pumpkins and fall-themed refreshments in the BA Room, from 7pm
+    An evening of carved pumpkins and board games in the BA Room, from 7pm
   ]
 ),
 
