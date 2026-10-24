@@ -247,7 +247,7 @@
 (
   label: [Sunset Walk],
   icon: box(circle(fill: gradient.linear(yellow.lighten(70%), yellow.mix((orange, 40%)), dir: ttb), radius: 0.34em)),
-  dates: Date("2026-10-25"),
+  dates: Date("2026-10-31"),
   description: [
     A cosy walk through Cambridge parks with coffee and hot chocolate
     leaving Great Gate at 4pm
