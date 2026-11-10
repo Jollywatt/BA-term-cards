@@ -269,6 +269,42 @@
   description: [
     Food, drinks & Afrobeats in Trin Bar for Black history month, 7pm
   ]
-)
+),
+
+(
+  label: [Swim~&~Coffee],
+  title: [Morning Swim & Coffee],
+  dates: (
+    Date("2026-11-11"),
+    Date("2026-11-28"),
+    Date("2026-12-10"),
+  ),
+  icon: {
+    let y = 2.8pt
+    let w = 4pt
+    let h = 2.5pt
+    let wave = (curve(
+      curve.move((0pt, 0pt)),
+      curve.cubic(
+        (w, h),
+        (w, -h),
+        (2*w, 0pt),
+      ),
+      curve.line((2*w, y)),
+      curve.cubic(
+        (w, y - h),
+        (w, y + h),
+        (0pt, y),
+      ),
+      curve.line((0pt, 0pt)),
+      curve.close(),
+      fill: oklch(80%, 30%, 220deg),
+    ))
+    box(stack(wave, wave, spacing: 0.5pt))
+  },
+  description: [
+    Swimming at Parkside Pool from 8--9am, followed by coffee & pastries
+  ]
+),
 
 )
