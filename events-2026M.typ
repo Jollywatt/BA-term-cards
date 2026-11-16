@@ -207,15 +207,15 @@
   ]
 ),
 
-(
-  label: [Ely Cathedral Christmas Fair],
-  title: [Ely~Cathedral~Christmas~Fair],
-  dates: Date("2026-11-21"),
-  icon: box(move(dy: -0.1em, polygon.regular(vertices: 5, size: .6em, stroke: 3pt + green.desaturate(80%).darken(30%)))),
-  description: [
-    Trip to Ely for the Christmas Gif & Food Fair under its iconic cathedral, 9:30am--1pm
-  ]
-),
+// (
+//   label: [Ely Cathedral Christmas Fair],
+//   title: [Ely~Cathedral~Christmas~Fair],
+//   dates: Date("2026-11-21"),
+//   icon: box(move(dy: -0.1em, polygon.regular(vertices: 5, size: .6em, stroke: 3pt + green.desaturate(80%).darken(30%)))),
+//   description: [
+//     Trip to Ely for the Christmas Gif & Food Fair under its iconic cathedral, 9:30am--1pm
+//   ]
+// ),
 
 // (
 //   label: [Board Games],
