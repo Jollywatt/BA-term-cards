@@ -307,4 +307,29 @@
   ]
 ),
 
+(
+  label: [BA Football],
+  dates: Date("2026-11-22"),
+  icon: box(clip: true, radius: 100%, {
+    circle(fill: gradient.radial(
+      (white, 0%), 
+      (white, 70%), 
+      (gray, 100%),
+      center: (44%, 44%), radius: 58%), radius: 5pt)
+    place(center + horizon, polygon.regular(fill: black, vertices: 5, size: 4.2pt), dy: -0.2pt)
+    for i in range(5) {
+      place(center + horizon, {
+        let hex = polygon.regular(stroke: black + 0.4pt, vertices: 6, size: 4.5pt, fill: none)
+        rotate(360deg/5*i, scale(y: 75%, move(hex, dy: 5pt)))
+      })
+    }
+
+  }),
+  description: [
+    Compete or support us at CUP Cass Centre from 10:30am!
+
+  ]
+),
+
+
 )
