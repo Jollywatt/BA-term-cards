@@ -309,7 +309,13 @@
 
 (
   label: [BA Football],
-  dates: Date("2026-11-22"),
+  dates: (
+    Date("2026-11-08"),
+    Date("2026-11-15"),
+    Date("2026-11-22"),
+    Date("2026-11-29"),
+    Date("2026-12-06"),
+  ),
   icon: box(clip: true, radius: 100%, {
     circle(fill: gradient.radial(
       (white, 0%), 
