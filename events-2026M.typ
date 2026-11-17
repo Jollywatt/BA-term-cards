@@ -256,7 +256,7 @@
 
 (
   label: [Clothes Swap],
-  dates: Date("2026-11-29"),
+  dates: Date("2026-12-13"),
   description: [
     Afternoon clothing swap in the BA Room
   ]
