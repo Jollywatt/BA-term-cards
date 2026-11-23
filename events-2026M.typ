@@ -157,9 +157,9 @@
 
 (
   label: [Ice Skating],
-  dates: Date("2026-11-23"),
+  dates: Date("2026-11-24"),
   description: [
-    Outdoor ice skating at Parkers Piece, meeting at Great Gate at 5:30pm
+    Outdoor ice skating meeting at Parker's Piece at 6:45pm
   ],
   color: teal,
   contact: "Petra and Ilinca"
